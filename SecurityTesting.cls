@@ -12,7 +12,7 @@ public with sharing class SecurityTesting
   }
     public SecurityTesting()
     {
-    	String testing = 'This is a test';
+    	String testing = 'This is a testing';
         if(apexpages.currentpage().getparameters().get('Id') !=null) 
         {
         String test = ApexPages.currentPage().getParameters().get('Id');
